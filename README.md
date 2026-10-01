@@ -82,7 +82,7 @@ The `date_added` column was converted from string format to **datetime format** 
 
 Missing values were identified using:
 
-```python
+
 df.isnull().sum()
 
 ### 7. Handling Missing Values
